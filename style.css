@@ -1,0 +1,41 @@
+/* Cores Customizadas */
+:root {
+    --primary-color: #0056b3;
+    --dark-bg: #1a1a1a;
+    --dark-text: #f0f0f0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    transition: 0.3s ease;
+    background-color: #fff;
+    color: #333;
+}
+
+/* R11: Dark Mode Classes */
+body.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+body.dark-mode .bg-light {
+    background-color: #2d2d2d !important;
+    color: white;
+}
+
+body.dark-mode .list-group-item {
+    background-color: #333;
+    color: white;
+}
+
+/* R9: Ajuste do menu mobile */
+.show-menu {
+    display: block !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.progress { height: 10px; margin-bottom: 20px; }
